@@ -1,0 +1,27 @@
+<div class="container">
+    <app-navbar />
+    <p-image
+        src="https://raw.githubusercontent.com/MANP17/img-examen1/main/software.png"
+        alt="Image" width="100%" />
+    <div class="cards-container">
+        <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+            <ng-template #header>
+                <img alt="Card" width="100%" height="50%" src="https://raw.githubusercontent.com/MANP17/img-examen1/main/software.png" />
+            </ng-template>
+            <ng-template #title> Nuestra Misión </ng-template>
+            <p>
+                Desarrollar soluciones de software innovadoras, seguras y escalables que impulsen el crecimiento de nuestros clientes, optimicen sus procesos y generen un impacto positivo en la sociedad, siempre con un enfoque en calidad, eficiencia y experiencia de usuario.
+            </p>
+        </p-card>
+        <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+            <ng-template #header>
+                <img alt="Card" width="100%" height="50%" src="https://raw.githubusercontent.com/MANP17/img-examen1/main/software.png" />
+            </ng-template>
+            <ng-template #title> Nuestra Visión </ng-template>
+            <p>
+               Ser reconocidos globalmente como una empresa líder en el desarrollo de software, destacando por nuestra capacidad de anticipar tendencias tecnológicas, fomentar la transformación digital y crear productos que mejoren la vida de las personas y potencien la evolución de las organizaciones.
+            </p>
+        </p-card>
+    </div>
+    <app-footer></app-footer>
+</div>

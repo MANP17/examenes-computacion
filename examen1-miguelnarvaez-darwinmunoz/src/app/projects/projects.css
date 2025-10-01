@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.accordion-container {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.accordion-p {
+    font-size: 18px;
+}

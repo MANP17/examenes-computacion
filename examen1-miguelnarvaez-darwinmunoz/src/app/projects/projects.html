@@ -1,0 +1,138 @@
+<div class="container">
+    <div class="background-container">
+        <app-navbar />
+        <div style="padding: 20px; text-align: center; font-size: 50px;">
+            <h1>Nuestros Proyectos</h1>
+        </div>
+
+        <div class="card-container">
+            <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+                <ng-template #header>
+                    <img alt="Card" width="100%" height="50%"
+                        src="https://raw.githubusercontent.com/MANP17/img-examen1/main/software.png" />
+                </ng-template>
+                <ng-template #title> Desarrollo a la medida </ng-template>
+                <p>
+                    Creamos soluciones de software personalizadas que se adaptan a las necesidades específicas de cada
+                    cliente, optimizando procesos y generando valor real para su negocio.
+                </p>
+                <ng-template #footer>
+                    <div class="flex gap-4 mt-1">
+                        <app-toaster title="Desarrollo a la medida" description="Nuestro servicio de desarrollo a la medida se centra en crear soluciones de software adaptadas a los requerimientos específicos de cada organización. A través de un análisis detallado de procesos y objetivos, diseñamos arquitecturas escalables, seguras y de alto rendimiento que integran las mejores prácticas de ingeniería de software. Implementamos metodologías ágiles para garantizar entregas incrementales, código de calidad y una solución totalmente alineada con la estrategia del negocio."></app-toaster>
+                    </div>
+                </ng-template>
+            </p-card>
+
+            <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+                <ng-template #header>
+                    <img alt="Card" width="100%" height="50%"
+                        src="https://raw.githubusercontent.com/MANP17/img-examen1/main/software.png" />
+                </ng-template>
+                <ng-template #title> Desarrollo móvil </ng-template>
+                <p>
+                    Diseñamos y desarrollamos aplicaciones móviles innovadoras, seguras y fáciles de usar para iOS y
+                    Android, brindando experiencias digitales únicas a los usuarios.
+                </p>
+                <ng-template #footer>
+                    <div class="flex gap-4 mt-1">
+                        <app-toaster title="Desarrollo móvil" description="Ofrecemos el diseño y desarrollo de aplicaciones móviles nativas e híbridas para iOS y Android, optimizadas para rendimiento, usabilidad y seguridad. Utilizamos frameworks modernos, arquitecturas modulares y patrones de diseño que permiten escalabilidad y mantenimiento eficiente. Nuestras soluciones incluyen integración con APIs, servicios en la nube y funcionalidades avanzadas como notificaciones push, geolocalización y autenticación segura, garantizando una experiencia de usuario fluida y confiable."></app-toaster>
+                    </div>
+                </ng-template>
+            </p-card>
+
+            <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+                <ng-template #header>
+                    <img alt="Card" width="100%" height="50%"
+                        src="https://raw.githubusercontent.com/MANP17/img-examen1/main/software.png" />
+                </ng-template>
+                <ng-template #title> Soporte de Aplicaciones </ng-template>
+                <p>
+                    Ofrecemos mantenimiento y soporte continuo para garantizar el correcto funcionamiento, actualización
+                    y mejora de las aplicaciones, asegurando su disponibilidad y rendimiento óptimo.
+                </p>
+                <ng-template #footer>
+                    <div class="flex gap-4 mt-1">
+                        <app-toaster title="Soporte de aplicaciones" description="El servicio de soporte de aplicaciones asegura la continuidad operativa y la optimización de las soluciones tecnológicas en producción. Incluye monitoreo proactivo, resolución de incidencias, aplicación de parches de seguridad y mejoras de rendimiento. Nuestro equipo utiliza herramientas de observabilidad y gestión de versiones para mantener las aplicaciones actualizadas, estables y alineadas con los cambios en el entorno tecnológico. De esta manera, garantizamos que cada aplicación evolucione con el negocio y se mantenga competitiva en el tiempo."></app-toaster>
+                    </div>
+                </ng-template>
+            </p-card>
+        </div>
+
+        <br />
+
+        <div class="accordion-container">
+            <p-accordion value="0">
+                <p-accordion-panel value="0">
+                    <p-accordion-header>Desarrollo a la medida</p-accordion-header>
+                    <p-accordion-content>
+                        <ul style="list-style: none;">
+                            <li>
+                                <p class="m-0 accordion-p">
+                                    <b style="color: #8458B3;">ERP personalizado</b> para gestión de inventario, facturación y contabilidad adaptado a procesos internos de una empresa.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="m-0 accordion-p">
+                                    <b style="color: #8458B3;">Plataforma de e-learning</b> con gestión de cursos, evaluaciones en línea y seguimiento de estudiantes.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="m-0 accordion-p">
+                                    <b style="color: #8458B3;">Sistema de gestión hospitalaria</b> con módulos de citas, historias clínicas y facturación integrada.
+                                </p>
+                            </li>
+                        </ul>
+                    </p-accordion-content>
+                </p-accordion-panel>
+
+                <p-accordion-panel value="1">
+                    <p-accordion-header>Desarrollo móvil</p-accordion-header>
+                    <p-accordion-content>
+                        <ul style="list-style: none;">
+                            <li>
+                                <p class="m-0 accordion-p">
+                                    <b style="color: #8458B3;">App de banca digital</b> con transferencias, pagos QR y autenticación biométrica.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="m-0 accordion-p">
+                                    <b style="color: #8458B3;">Aplicación de delivery</b> con geolocalización, seguimiento en tiempo real y pasarela de pagos.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="m-0 accordion-p">
+                                    <b style="color: #8458B3;">App de fitness</b> con rutinas personalizadas, recordatorios y conexión con wearables.
+                                </p>
+                            </li>
+                        </ul>
+                    </p-accordion-content>
+                </p-accordion-panel>
+
+                <p-accordion-panel value="2">
+                    <p-accordion-header>Soporte de Aplicaciones</p-accordion-header>
+                    <p-accordion-content>
+                        <ul style="list-style: none;">
+                            <li>
+                                <p class="m-0 accordion-p">
+                                    <b style="color: #8458B3;">Monitoreo y optimización de un CRM</b> en producción para mejorar rendimiento y estabilidad.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="m-0 accordion-p">
+                                    <b style="color: #8458B3;">Actualización tecnológica</b> de una aplicación heredada migrándola a frameworks modernos.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="m-0 accordion-p">
+                                    <b style="color: #8458B3;">Mantenimiento preventivo y correctivo</b> de una plataforma de comercio electrónico de alto tráfico.
+                                </p>
+                            </li>
+                        </ul>
+                    </p-accordion-content>
+                </p-accordion-panel>
+            </p-accordion>
+        </div>
+
+    </div>
+    <app-footer></app-footer>
+</div>

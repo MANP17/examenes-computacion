@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Alan Sans", sans-serif;
+}
+body {
+    background-color: #1B1E4C   ;
+}

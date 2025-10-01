@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="menu-container">
+        <p-image
+            src="https://raw.githubusercontent.com/MANP17/img-examen1/main/logo.png"
+            alt="Image" width="150" />
+        <p-menubar [model]="items" styleClass="custom-menubar"></p-menubar>
+    </div>
+    <div>
+        <input type="text" pInputText [(ngModel)]="value" />
+        <p-button icon="pi pi-search" severity="help" />
+    </div>
+</div>
